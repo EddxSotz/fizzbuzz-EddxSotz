@@ -9,7 +9,7 @@ module.exports = function () {
     }else if(i%3==0){
       arr.push('Fizz');
     }else
-      arr.push(i.toString());  
+      arr.push(i);  
   }
   return arr;
  console.log(arr);
